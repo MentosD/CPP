@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/dxh/Nutstore$ Files/.symlinks/坚果云/CPP/cmake-b
 
 build cmake_object_order_depends_target_CPP: phony || CMakeFiles/CPP.dir
 
-build CMakeFiles/CPP.dir/rand_input.cpp.o: CXX_COMPILER__CPP_Debug /Users/dxh/Nutstore$ Files/.symlinks/坚果云/CPP/rand_input.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles/CPP.dir/rand_input.cpp.o.d
+build CMakeFiles/CPP.dir/read_item.cpp.o: CXX_COMPILER__CPP_Debug /Users/dxh/Nutstore$ Files/.symlinks/坚果云/CPP/read_item.cpp || cmake_object_order_depends_target_CPP
+  DEP_FILE = CMakeFiles/CPP.dir/read_item.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/CPP.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP.dir
@@ -63,7 +63,7 @@ build CMakeFiles/CPP.dir/rand_input.cpp.o: CXX_COMPILER__CPP_Debug /Users/dxh/Nu
 #############################################
 # Link the executable CPP
 
-build CPP: CXX_EXECUTABLE_LINKER__CPP_Debug CMakeFiles/CPP.dir/rand_input.cpp.o
+build CPP: CXX_EXECUTABLE_LINKER__CPP_Debug CMakeFiles/CPP.dir/read_item.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CPP.dir
   POST_BUILD = :

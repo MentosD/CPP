@@ -3,4 +3,4 @@ project(CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CPP rand_input.cpp)
+add_executable(CPP read_item.cpp Sales_item.h)
