@@ -1,0 +1,14 @@
+//
+// Created by 董晓辉 on 2022/6/27.
+//
+
+#include <iostream>
+int main()
+{
+    int sum = 0,value = 0;
+    while (std::cin >> value)
+        sum += value;
+
+    std::cout << "Sum is : " << sum << std::endl;
+    return 0;
+}
